@@ -9,7 +9,6 @@ public:
     Diem(float Hoanh, float Tung); 
     Diem(const Diem &x); 
 
-    void Nhap();
     void Xuat();
 
     float GetTungDo();

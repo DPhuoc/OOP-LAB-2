@@ -9,5 +9,5 @@ private:
 public:
     TamGiac(Diem a, Diem b, Diem c);
     void TinhTien(float goc, float khoangCach);
-    void Xuat() const;
+    void Xuat();
 };

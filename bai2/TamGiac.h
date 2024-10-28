@@ -6,10 +6,8 @@ private:
     Diem A, B, C;
 
 public:
-
     TamGiac();
     TamGiac(Diem a, Diem b, Diem c);
-
 
     void Nhap();
     void Xuat();  

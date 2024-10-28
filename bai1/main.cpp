@@ -1,7 +1,10 @@
 #include <iostream>
-#include "Diem.cpp"
+#include "Diem.h"
+
+using namespace std;
 
 int main() {
+    
     Diem A(15.3, 27.7); 
     A.Xuat(); 
     

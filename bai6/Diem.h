@@ -2,12 +2,20 @@
 
 class Diem {
 private:
-    float x, y;
+    float iHoanh, iTung;
 
 public:
-    Diem(float x = 0, float y = 0);
+    Diem();
+    Diem(float Hoanh, float Tung); 
+    Diem(const Diem &x); 
+
+    void Nhap();
+    void Xuat();
+
+    float GetTungDo();
+    float GetHoanhDo();
+    void SetTungDo(float Tung); 
+    void SetHoanhDo(float Hoanh);
+
     void TinhTien(float dx, float dy);
-    
-    float getX() const;
-    float getY() const;
 };

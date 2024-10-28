@@ -1,5 +1,7 @@
 #include <iostream>
-#include "Tamgiac.cpp"
+#include "TamGiac.h"
+
+using namespace std;
 
 int main() {
     TamGiac tg;

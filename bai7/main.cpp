@@ -1,5 +1,4 @@
 #include <iostream>
-// #include "Diem.h"
 #include "DaGiac.h"
 
 int main() {
