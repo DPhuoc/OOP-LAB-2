@@ -1,5 +1,4 @@
 #pragma one
-
 #include <string>
 
 using namespace std;
